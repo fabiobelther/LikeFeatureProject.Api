@@ -28,12 +28,12 @@ An important goal of Clean Architecture is to provide to developers a way to org
 ## DataBase Strucuture
 
 - Table Article (not implemented)
-	id - primary Key - int
+  - id - primary Key - int
 	
 - Table Like
-	id - primary Key - int
-	articleId - foreign Key(Table Article) - int
-	count - int
+  - id - primary Key - int
+  - articleId - foreign Key(Table Article) - int
+  - count - int
 
 ## Getting Started
 
@@ -78,11 +78,19 @@ dotnet test
 
 ## Improvements
 
-- How can you improve the feature to make it more resilient against abuse/exploitation
+- How can you improve the feature to make it more resilient against abuse/exploitation 
+  - To avoid abuse or the use of robots to generate a huge amount of likes in an article we could:
+    - In the front-end create a variable where we would limit the amount of likes (for example, set a maximum of 3), and after reaching the value disable the like button.
+    - We could record the ip from the user in a NoSql database like redis and with that, we would limit the amount per article or time.
+    - It was not informed that there would be an option to "dislike" in the business rule. If was possible, this action would inhibit abuse, allowing the app user to like the article just once.
+	 
 - How can you improve the feature to make it scale to millions of users and perform without issues?
-- A million concurrent users clicking the button at the same time
+- A million concurrent users clicking the button at the same time 
 - A million concurrent users requesting the article's like count at the same time
-
+  - The solution was built in microservices, however the relational database can be a bottlenecked, to solve these possible problems we could:
+    - Record the current number of likes of the article in a NoSql database like redis, and according to Gets requests they would look directly at it.
+    - When making a Post, we would use a Queue as AWS SQS or Rabbit asynchronously, and when making a transaction, it would update the key in the NoSql bank.
+    - After that we would make a callback to the Front-end with the new value of likes.
 
 ## Built With
 
