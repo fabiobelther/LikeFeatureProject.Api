@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LikeFeatureProject.Api.Host", "LikeFeatureProject.Api.Host\LikeFeatureProject.Api.Host.csproj", "{4814C38B-89DB-43E5-BEF1-99CB5EEF6DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LikeFeatureProject.Api.Domain", "LikeFeatureProject.Api.Domain\LikeFeatureProject.Api.Domain.csproj", "{F62F4960-783A-4F66-BD63-17DA2F7F1CD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LikeFeatureProject.Api.Service", "LikeFeatureProject.Api.Service\LikeFeatureProject.Api.Service.csproj", "{66A5A9EE-509B-47B1-9B82-4D2466CE1B15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LikeFeatureProject.Api.Service.Test", "LikeFeatureProject.Api.Service.Test\LikeFeatureProject.Api.Service.Test.csproj", "{6908EF4D-6253-426B-A0E0-DD9DC4DEC78B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LikeFeatureProject.Api.IntegrationTest", "LikeFeatureProject.Api.IntegrationTest\LikeFeatureProject.Api.IntegrationTest.csproj", "{B965F357-4DDE-48FF-A1B2-2667E6F0D384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikeFeatureProject.Api.Repository", "LikeFeatureProject.Api.Repository\LikeFeatureProject.Api.Repository.csproj", "{88454D55-3E80-4688-9272-7DC8D697D33B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4814C38B-89DB-43E5-BEF1-99CB5EEF6DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4814C38B-89DB-43E5-BEF1-99CB5EEF6DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4814C38B-89DB-43E5-BEF1-99CB5EEF6DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4814C38B-89DB-43E5-BEF1-99CB5EEF6DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62F4960-783A-4F66-BD63-17DA2F7F1CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62F4960-783A-4F66-BD63-17DA2F7F1CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62F4960-783A-4F66-BD63-17DA2F7F1CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62F4960-783A-4F66-BD63-17DA2F7F1CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A5A9EE-509B-47B1-9B82-4D2466CE1B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A5A9EE-509B-47B1-9B82-4D2466CE1B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A5A9EE-509B-47B1-9B82-4D2466CE1B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A5A9EE-509B-47B1-9B82-4D2466CE1B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6908EF4D-6253-426B-A0E0-DD9DC4DEC78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6908EF4D-6253-426B-A0E0-DD9DC4DEC78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6908EF4D-6253-426B-A0E0-DD9DC4DEC78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6908EF4D-6253-426B-A0E0-DD9DC4DEC78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B965F357-4DDE-48FF-A1B2-2667E6F0D384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B965F357-4DDE-48FF-A1B2-2667E6F0D384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B965F357-4DDE-48FF-A1B2-2667E6F0D384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B965F357-4DDE-48FF-A1B2-2667E6F0D384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88454D55-3E80-4688-9272-7DC8D697D33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88454D55-3E80-4688-9272-7DC8D697D33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88454D55-3E80-4688-9272-7DC8D697D33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88454D55-3E80-4688-9272-7DC8D697D33B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95A2FF8B-9FA7-4FB5-97BC-8D7DEB016A63}
+	EndGlobalSection
+EndGlobal

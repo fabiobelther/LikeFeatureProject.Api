@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>a4127ecc-1359-43be-bda0-ed5f2317ef3f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LikeFeatureProject.Api.Domain\LikeFeatureProject.Api.Domain.csproj" />
+    <ProjectReference Include="..\LikeFeatureProject.Api.Repository\LikeFeatureProject.Api.Repository.csproj" />
+    <ProjectReference Include="..\LikeFeatureProject.Api.Service\LikeFeatureProject.Api.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

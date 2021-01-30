@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LikeFeatureProject.Api.IntegrationTest": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
