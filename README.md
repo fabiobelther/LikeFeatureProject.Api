@@ -5,7 +5,7 @@ The “Like” button serves two primary use cases:
 - When a user clicks the like button, the count increments by one.
 
 This project is server-side(back-end) of application. 
-To see about the client-side(front-end) go to: https://github.com/fabiobelther/LikeFeatureProject.git
+To see about the client-side(front-end) go to: https://github.com/fabiobelther/like-feature-project.git
 
 
 ## Overview
@@ -28,12 +28,12 @@ An important goal of Clean Architecture is to provide to developers a way to org
 ## DataBase Strucuture
 
 - Table Article (not implemented)
-  - id - primary Key - int
+  - id (primary Key - int)
 	
 - Table Like
-  - id - primary Key - int
-  - articleId - foreign Key(Table Article) - int
-  - count - int
+  - id (primary Key - int)
+  - articleId (foreign Key(Table Article) - int)
+  - count (int)
 
 ## Getting Started
 
